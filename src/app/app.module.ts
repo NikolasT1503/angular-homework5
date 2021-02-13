@@ -2,17 +2,15 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { BlackSquareComponent } from './black-square/black-square.component';
-import { WhiteSquareComponent } from './white-square/white-square.component';
+import { SquareModule } from './modules/square/square.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    BlackSquareComponent,
-    WhiteSquareComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SquareModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,8 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./black-square.component.css']
 })
 export class BlackSquareComponent implements OnInit {
-  blackColor: string = 'background-color: #b58863';
-
+  
   constructor() { }
 
   ngOnInit(): void {
